@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Gilang 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Stars Background -->
+    <div class="stars" id="stars"></div>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+        <h1>Happy Birthday Gilang 🎉</h1>
+        <p class="subtitle">18 Mei – Hari Spesialmu</p>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section reveal">
+        <div class="countdown-container">
+            <h2 class="countdown-title">Menuju Hari Spesial Gilang</h2>
+            <div class="countdown-grid" id="countdown">
+                <div class="countdown-card">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Hari</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Jam</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Menit</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Detik</div>
+                </div>
+            </div>
+            <p class="countdown-subtitle">Menuju hari spesial Gilang</p>
+        </div>
+    </section>
+
+    <!-- Memories Section -->
+    <section class="memories-section">
+        <div class="memories-container">
+            <h2 class="section-title reveal">Kenangan Bersama</h2>
+            <div class="memory-slider">
+                <div class="slider-wrapper">
+                    <div class="slider-track" id="sliderTrack">
+                        <!-- Slides will be added dynamically -->
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prevBtn">‹</button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button class="slider-btn" id="nextBtn">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-section">
+        <div class="story-container">
+            <h2 class="section-title reveal">Cerita & Pesan</h2>
+            <div class="story-content reveal">
+                <p>
+                    Di hari spesialmu ini, aku ingin mengucapkan terima kasih yang tak terhingga. 
+                    Persahabatan kita telah mewarnai perjalanan hidup dengan cerita-cerita indah, 
+                    tawa yang mengisi hari, dan dukungan yang selalu ada di setiap langkah.
+                </p>
+                <p style="margin-top: 1.5rem;">
+                    Setiap momen bersama adalah kenangan berharga yang akan selalu terukir dalam hati. 
+                    Dari petualangan kecil hingga perbincangan larut malam, semuanya menjadi bagian 
+                    dari cerita indah yang kita tulis bersama.
+                </p>
+            </div>
+            <div class="quote reveal">
+                "Persahabatan sejati adalah ketika kamu bisa menjadi dirimu sendiri tanpa takut dihakimi, 
+                dan ketika kamu tahu ada seseorang yang selalu ada untukmu, dalam suka dan duka."
+            </div>
+            <div class="story-content reveal" style="margin-top: 2rem;">
+                <p>
+                    Di ulang tahunmu yang ke-18 ini, semoga semua impian dan harapanmu terwujud. 
+                    Semoga tahun ini membawa kebahagiaan, kesuksesan, dan petualangan baru yang 
+                    akan menjadi kenangan indah di masa depan.
+                </p>
+                <p style="margin-top: 1.5rem; font-weight: 600; color: #87ceeb;">
+                    Selamat ulang tahun, Gilang! Semoga hari ini dan hari-hari selanjutnya penuh dengan 
+                    kebahagiaan, cinta, dan semua hal baik yang kamu impikan. 🎂✨
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section class="closing-section">
+        <div class="closing-message reveal">
+            Terima kasih sudah menjadi bagian dari perjalanan hidup ini, Gilang 💙
+        </div>
+    </section>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <button class="music-btn" id="musicBtn" onclick="toggleMusic()">
+            <span class="music-icon">🎵</span>
+        </button>
+        <audio id="birthdayMusic" loop>
+            <source src="1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
